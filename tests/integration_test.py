@@ -1,12 +1,10 @@
 # tests/integration_test.py
 
 import asyncio
-from multiprocessing import Process
-
 import uvicorn
-
-from client_library import ClientLibrary
-from server.server import app  # Import the FastAPI app directly
+from multiprocessing import Process
+from client import ClientLibrary
+from server.server import app
 
 
 def start_server():

@@ -2,7 +2,6 @@
 
 import random
 import time
-
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
